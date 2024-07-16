@@ -9,7 +9,8 @@ YouTube Transcript Summarizer is a Chrome extension that summarizes YouTube vide
 - Allows users to select different GPT models.
 - Provides options to adjust the temperature for the GPT model.
 - Saves and retrieves the OpenAI API key locally.
-- Downloads the summarized data as a JSON file.
+- Allows user to ask additional questions to GPT model that will be answered at the end of the summary.
+- Downloads the summarized data as a JSON file or copy it to the clipboard.
 
 ## Installation
 
@@ -26,13 +27,6 @@ YouTube Transcript Summarizer is a Chrome extension that summarizes YouTube vide
 4. Select the GPT model and adjust the temperature if needed.
 5. Click on "Ask GPT" to get the summary of the transcript.
 6. You can download the summarized data as a JSON file by clicking on "Download JSON".
-
-## Files
-
-- `manifest.json`: The manifest file that contains the extension's metadata.
-- `popup.html`: The HTML file for the extension's popup.
-- `popup.js`: The JavaScript file that contains the logic for the extension.
-- `styles.css`: The CSS file for styling the extension's popup.
 
 ## Best Practices
 
