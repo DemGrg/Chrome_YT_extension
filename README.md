@@ -35,6 +35,9 @@ YouTube Transcript Summarizer is a Chrome extension that summarizes YouTube vide
 - Avoid using the extension on pages with sensitive information.
 - Periodically clear the extension's stored data in Chrome's settings.
 
+## USAGE NOTE
+- if for some reason the extension does not open the transcript simply find and click the "Show Transcript" button on the youtube video page and the extension will pick up the loaded transcript.
+
 ## Disclaimer
 
 This extension is provided "as is" without warranty of any kind. The developers are not responsible for any costs, damages, or security issues that may arise from its use.
