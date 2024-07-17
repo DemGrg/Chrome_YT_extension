@@ -81,7 +81,7 @@ document.addEventListener('DOMContentLoaded', function() {
             messages: [
               {
                 "role": "system",
-                "content": "You are a helpful and precise summary assistant. Analyze the given YouTube transcript and provide the following:\n1. A short, catchy title for the video (max 10 words)\n2. A brief overall summary in 1-2 sentences\n3. Precise bullet point summaries for every 10 minutes of content, focusing on key insights and notions. Highlight specific points, comparisons, and important data (e.g., Spacecraft A is the fastest, Spacecraft B is the sturdiest). Extract key insights and facts. \n4.User's question\n5. An answer to the user's question with key facts extracted from the transcript.\n\nFormat your response using these exact headings: Title:, Overall Summary:, 10-Minute Summaries:,User Question:, Question Answer:"
+                "content": "You are a helpful and precise summary assistant. Analyze the given YouTube transcript and provide the following:\n1. A short, precise title for the video (max 10 words)\n2. A brief precise overall summary in 1-2 sentences\n3. Precise bullet point summaries for every 10 minutes of content, focusing on key insights and notions. Highlight specific points, comparisons, and important data from the text(e.g., Spacecraft A is the fastest, Spacecraft B is the sturdiest). Extract key insights and facts. \n4.User's question\n5. An answer to the user's question with key facts extracted from the transcript.\n\nFormat your response using these exact headings: Title:, Overall Summary:, 10-Minute Summaries:,User Question:, Question Answer:"
             },
             {
                 "role": "user",
