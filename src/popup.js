@@ -60,6 +60,9 @@ document.addEventListener('DOMContentLoaded', function() {
   
         resultDiv.textContent = "Loading...";
 
+        // If question is empty, set it to "None"
+        const userQuestion = question.trim() === '' ? 'None' : question;
+
         const charLimit = model === 'gpt-3.5-turbo' ? 10000 : 100000;
 
         let truncatedContent;
@@ -85,7 +88,7 @@ document.addEventListener('DOMContentLoaded', function() {
             },
             {
                 "role": "user",
-                "content": `YouTube Transcript:\n${transcript}\n\nQuestion: ${question}`
+                "content": `YouTube Transcript:\n${transcript}\n\nQuestion: ${userQuestion}`
             }
             ],
             temperature: temperature
