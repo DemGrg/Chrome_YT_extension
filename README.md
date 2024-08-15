@@ -3,6 +3,8 @@
 
 YouTube Transcript Summarizer is a Chrome extension that summarizes YouTube video transcripts using OpenAI's API.
 
+![Main popup of the extension](images/yt.png)
+
 ## Features
 
 - Summarizes YouTube video transcripts using OpenAI's GPT models.
